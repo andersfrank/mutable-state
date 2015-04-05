@@ -1,0 +1,526 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		059EF5891AD1317E00570F17 /* Transaction.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF5881AD1317E00570F17 /* Transaction.m */; };
+		059EF58C1AD139A200570F17 /* TransactionExamplesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF58B1AD139A200570F17 /* TransactionExamplesViewController.m */; };
+		059EF58F1AD14DA600570F17 /* BottomBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF58E1AD14DA600570F17 /* BottomBar.m */; };
+		059EF5921AD1534E00570F17 /* TransactionView.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF5911AD1534E00570F17 /* TransactionView.m */; };
+		059EF5951AD15C5200570F17 /* ReactiveTransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF5941AD15C5200570F17 /* ReactiveTransactionsViewController.m */; };
+		059EF5981AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF5971AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.m */; };
+		059EF59B1AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 059EF59A1AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.m */; };
+		05BE30711AD11EB900B28BEB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE30701AD11EB900B28BEB /* main.m */; };
+		05BE30741AD11EB900B28BEB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE30731AD11EB900B28BEB /* AppDelegate.m */; };
+		05BE307C1AD11EB900B28BEB /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 05BE307B1AD11EB900B28BEB /* Images.xcassets */; };
+		05BE307F1AD11EB900B28BEB /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = 05BE307D1AD11EB900B28BEB /* LaunchScreen.xib */; };
+		05BE308B1AD11EBA00B28BEB /* TransactionsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE308A1AD11EBA00B28BEB /* TransactionsTests.m */; };
+		05BE30961AD11FF100B28BEB /* MutableTransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE30951AD11FF100B28BEB /* MutableTransactionsViewController.m */; };
+		05BE30991AD1200100B28BEB /* DerivedTransactionsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 05BE30981AD1200100B28BEB /* DerivedTransactionsViewController.m */; };
+		632F83D2D83AE5F64FF77D37 /* libPods.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9D83E6A01E1F55997F969BF3 /* libPods.a */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		05BE30851AD11EBA00B28BEB /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 05BE30631AD11EB900B28BEB /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 05BE306A1AD11EB900B28BEB;
+			remoteInfo = Transactions;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		059EF5871AD1317E00570F17 /* Transaction.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Transaction.h; sourceTree = "<group>"; };
+		059EF5881AD1317E00570F17 /* Transaction.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Transaction.m; sourceTree = "<group>"; };
+		059EF58A1AD139A200570F17 /* TransactionExamplesViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionExamplesViewController.h; sourceTree = "<group>"; };
+		059EF58B1AD139A200570F17 /* TransactionExamplesViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionExamplesViewController.m; sourceTree = "<group>"; };
+		059EF58D1AD14DA600570F17 /* BottomBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BottomBar.h; sourceTree = "<group>"; };
+		059EF58E1AD14DA600570F17 /* BottomBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BottomBar.m; sourceTree = "<group>"; };
+		059EF5901AD1534E00570F17 /* TransactionView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TransactionView.h; sourceTree = "<group>"; };
+		059EF5911AD1534E00570F17 /* TransactionView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TransactionView.m; sourceTree = "<group>"; };
+		059EF5931AD15C5200570F17 /* ReactiveTransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveTransactionsViewController.h; sourceTree = "<group>"; };
+		059EF5941AD15C5200570F17 /* ReactiveTransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveTransactionsViewController.m; sourceTree = "<group>"; };
+		059EF5961AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveMVVMTransactionsViewController.h; sourceTree = "<group>"; };
+		059EF5971AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveMVVMTransactionsViewController.m; sourceTree = "<group>"; };
+		059EF5991AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ReactiveMVVMTransactionsViewModel.h; sourceTree = "<group>"; };
+		059EF59A1AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ReactiveMVVMTransactionsViewModel.m; sourceTree = "<group>"; };
+		05BE306B1AD11EB900B28BEB /* Transactions.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Transactions.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BE306F1AD11EB900B28BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BE30701AD11EB900B28BEB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		05BE30721AD11EB900B28BEB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		05BE30731AD11EB900B28BEB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		05BE307B1AD11EB900B28BEB /* Images.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Images.xcassets; sourceTree = "<group>"; };
+		05BE307E1AD11EB900B28BEB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.xib; name = Base; path = Base.lproj/LaunchScreen.xib; sourceTree = "<group>"; };
+		05BE30841AD11EBA00B28BEB /* TransactionsTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = TransactionsTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		05BE30891AD11EBA00B28BEB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		05BE308A1AD11EBA00B28BEB /* TransactionsTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = TransactionsTests.m; sourceTree = "<group>"; };
+		05BE30941AD11FF100B28BEB /* MutableTransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MutableTransactionsViewController.h; sourceTree = "<group>"; };
+		05BE30951AD11FF100B28BEB /* MutableTransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MutableTransactionsViewController.m; sourceTree = "<group>"; };
+		05BE30971AD1200100B28BEB /* DerivedTransactionsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DerivedTransactionsViewController.h; sourceTree = "<group>"; };
+		05BE30981AD1200100B28BEB /* DerivedTransactionsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DerivedTransactionsViewController.m; sourceTree = "<group>"; };
+		3DFA00EAD03794CEBD923899 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
+		9D83E6A01E1F55997F969BF3 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B230341166A1ACAD5C8CC4E3 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		05BE30681AD11EB900B28BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				632F83D2D83AE5F64FF77D37 /* libPods.a in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BE30811AD11EBA00B28BEB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		05BE30621AD11EB900B28BEB = {
+			isa = PBXGroup;
+			children = (
+				05BE306D1AD11EB900B28BEB /* Transactions */,
+				05BE30871AD11EBA00B28BEB /* TransactionsTests */,
+				05BE306C1AD11EB900B28BEB /* Products */,
+				A06E672D7A6B3CA9AC7F8A60 /* Pods */,
+				392FCB78EC808A65AA16DC76 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		05BE306C1AD11EB900B28BEB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				05BE306B1AD11EB900B28BEB /* Transactions.app */,
+				05BE30841AD11EBA00B28BEB /* TransactionsTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		05BE306D1AD11EB900B28BEB /* Transactions */ = {
+			isa = PBXGroup;
+			children = (
+				05BE30721AD11EB900B28BEB /* AppDelegate.h */,
+				05BE30731AD11EB900B28BEB /* AppDelegate.m */,
+				05BE307B1AD11EB900B28BEB /* Images.xcassets */,
+				05BE307D1AD11EB900B28BEB /* LaunchScreen.xib */,
+				05BE306E1AD11EB900B28BEB /* Supporting Files */,
+				05BE30941AD11FF100B28BEB /* MutableTransactionsViewController.h */,
+				05BE30951AD11FF100B28BEB /* MutableTransactionsViewController.m */,
+				05BE30971AD1200100B28BEB /* DerivedTransactionsViewController.h */,
+				05BE30981AD1200100B28BEB /* DerivedTransactionsViewController.m */,
+				059EF5931AD15C5200570F17 /* ReactiveTransactionsViewController.h */,
+				059EF5941AD15C5200570F17 /* ReactiveTransactionsViewController.m */,
+				059EF5961AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.h */,
+				059EF5971AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.m */,
+				059EF5991AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.h */,
+				059EF59A1AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.m */,
+				059EF5871AD1317E00570F17 /* Transaction.h */,
+				059EF5881AD1317E00570F17 /* Transaction.m */,
+				059EF58A1AD139A200570F17 /* TransactionExamplesViewController.h */,
+				059EF58B1AD139A200570F17 /* TransactionExamplesViewController.m */,
+				059EF58D1AD14DA600570F17 /* BottomBar.h */,
+				059EF58E1AD14DA600570F17 /* BottomBar.m */,
+			);
+			path = Transactions;
+			sourceTree = "<group>";
+		};
+		05BE306E1AD11EB900B28BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05BE306F1AD11EB900B28BEB /* Info.plist */,
+				05BE30701AD11EB900B28BEB /* main.m */,
+				059EF5901AD1534E00570F17 /* TransactionView.h */,
+				059EF5911AD1534E00570F17 /* TransactionView.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		05BE30871AD11EBA00B28BEB /* TransactionsTests */ = {
+			isa = PBXGroup;
+			children = (
+				05BE308A1AD11EBA00B28BEB /* TransactionsTests.m */,
+				05BE30881AD11EBA00B28BEB /* Supporting Files */,
+			);
+			path = TransactionsTests;
+			sourceTree = "<group>";
+		};
+		05BE30881AD11EBA00B28BEB /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				05BE30891AD11EBA00B28BEB /* Info.plist */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		392FCB78EC808A65AA16DC76 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9D83E6A01E1F55997F969BF3 /* libPods.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		A06E672D7A6B3CA9AC7F8A60 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				B230341166A1ACAD5C8CC4E3 /* Pods.debug.xcconfig */,
+				3DFA00EAD03794CEBD923899 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		05BE306A1AD11EB900B28BEB /* Transactions */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BE308E1AD11EBA00B28BEB /* Build configuration list for PBXNativeTarget "Transactions" */;
+			buildPhases = (
+				5F6BDFDF134B49F245E978AB /* Check Pods Manifest.lock */,
+				05BE30671AD11EB900B28BEB /* Sources */,
+				05BE30681AD11EB900B28BEB /* Frameworks */,
+				05BE30691AD11EB900B28BEB /* Resources */,
+				620CAC5E11B1DB685261D5CF /* Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Transactions;
+			productName = Transactions;
+			productReference = 05BE306B1AD11EB900B28BEB /* Transactions.app */;
+			productType = "com.apple.product-type.application";
+		};
+		05BE30831AD11EBA00B28BEB /* TransactionsTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 05BE30911AD11EBA00B28BEB /* Build configuration list for PBXNativeTarget "TransactionsTests" */;
+			buildPhases = (
+				05BE30801AD11EBA00B28BEB /* Sources */,
+				05BE30811AD11EBA00B28BEB /* Frameworks */,
+				05BE30821AD11EBA00B28BEB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				05BE30861AD11EBA00B28BEB /* PBXTargetDependency */,
+			);
+			name = TransactionsTests;
+			productName = TransactionsTests;
+			productReference = 05BE30841AD11EBA00B28BEB /* TransactionsTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		05BE30631AD11EB900B28BEB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0620;
+				ORGANIZATIONNAME = Frank;
+				TargetAttributes = {
+					05BE306A1AD11EB900B28BEB = {
+						CreatedOnToolsVersion = 6.2;
+					};
+					05BE30831AD11EBA00B28BEB = {
+						CreatedOnToolsVersion = 6.2;
+						TestTargetID = 05BE306A1AD11EB900B28BEB;
+					};
+				};
+			};
+			buildConfigurationList = 05BE30661AD11EB900B28BEB /* Build configuration list for PBXProject "Transactions" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 05BE30621AD11EB900B28BEB;
+			productRefGroup = 05BE306C1AD11EB900B28BEB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				05BE306A1AD11EB900B28BEB /* Transactions */,
+				05BE30831AD11EBA00B28BEB /* TransactionsTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		05BE30691AD11EB900B28BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BE307F1AD11EB900B28BEB /* LaunchScreen.xib in Resources */,
+				05BE307C1AD11EB900B28BEB /* Images.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BE30821AD11EBA00B28BEB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5F6BDFDF134B49F245E978AB /* Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		620CAC5E11B1DB685261D5CF /* Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods/Pods-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		05BE30671AD11EB900B28BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				059EF5951AD15C5200570F17 /* ReactiveTransactionsViewController.m in Sources */,
+				059EF5891AD1317E00570F17 /* Transaction.m in Sources */,
+				05BE30741AD11EB900B28BEB /* AppDelegate.m in Sources */,
+				05BE30961AD11FF100B28BEB /* MutableTransactionsViewController.m in Sources */,
+				05BE30711AD11EB900B28BEB /* main.m in Sources */,
+				059EF58C1AD139A200570F17 /* TransactionExamplesViewController.m in Sources */,
+				059EF59B1AD15F3B00570F17 /* ReactiveMVVMTransactionsViewModel.m in Sources */,
+				059EF5981AD15EEC00570F17 /* ReactiveMVVMTransactionsViewController.m in Sources */,
+				059EF5921AD1534E00570F17 /* TransactionView.m in Sources */,
+				059EF58F1AD14DA600570F17 /* BottomBar.m in Sources */,
+				05BE30991AD1200100B28BEB /* DerivedTransactionsViewController.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		05BE30801AD11EBA00B28BEB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				05BE308B1AD11EBA00B28BEB /* TransactionsTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		05BE30861AD11EBA00B28BEB /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 05BE306A1AD11EB900B28BEB /* Transactions */;
+			targetProxy = 05BE30851AD11EBA00B28BEB /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		05BE307D1AD11EB900B28BEB /* LaunchScreen.xib */ = {
+			isa = PBXVariantGroup;
+			children = (
+				05BE307E1AD11EB900B28BEB /* Base */,
+			);
+			name = LaunchScreen.xib;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		05BE308C1AD11EBA00B28BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		05BE308D1AD11EBA00B28BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		05BE308F1AD11EBA00B28BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B230341166A1ACAD5C8CC4E3 /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Transactions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		05BE30901AD11EBA00B28BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DFA00EAD03794CEBD923899 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = Transactions/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		05BE30921AD11EBA00B28BEB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransactionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transactions.app/Transactions";
+			};
+			name = Debug;
+		};
+		05BE30931AD11EBA00B28BEB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(SDKROOT)/Developer/Library/Frameworks",
+					"$(inherited)",
+				);
+				INFOPLIST_FILE = TransactionsTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Transactions.app/Transactions";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		05BE30661AD11EB900B28BEB /* Build configuration list for PBXProject "Transactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BE308C1AD11EBA00B28BEB /* Debug */,
+				05BE308D1AD11EBA00B28BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BE308E1AD11EBA00B28BEB /* Build configuration list for PBXNativeTarget "Transactions" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BE308F1AD11EBA00B28BEB /* Debug */,
+				05BE30901AD11EBA00B28BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		05BE30911AD11EBA00B28BEB /* Build configuration list for PBXNativeTarget "TransactionsTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05BE30921AD11EBA00B28BEB /* Debug */,
+				05BE30931AD11EBA00B28BEB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 05BE30631AD11EB900B28BEB /* Project object */;
+}
