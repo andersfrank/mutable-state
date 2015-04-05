@@ -1,2 +1,2 @@
 # mutable-state
-A small example of how mutable state increases complexity in programs
+A small example program illustrating how mutable state increases complexity
